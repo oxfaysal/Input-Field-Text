@@ -16,3 +16,30 @@ TextField(
   ),
 ),
 ```
+
+### Password hide/visibley
+```
+bool _password = true;
+```
+```
+TextField(
+  obscureText: _password,
+  suffixIcon: IconButton(
+    onPressed: () {
+      setState(() {
+        _password = !_password; // toggle
+      });
+    },
+      icon: Icon(_password? Icons.visibility_off: Icons.visibility),
+  ),
+)
+```
+
+
+
+###### © All right reserved by **Faysal**
+
+
+
+
+
