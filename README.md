@@ -1,4 +1,4 @@
-# Clear Input Field Text Click Icon
+# Input Field Text 
 
 ### Clear Text - Add Controller
 ```
